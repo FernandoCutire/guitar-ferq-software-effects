@@ -1,6 +1,5 @@
 # IDE files
 .idea/
-.vscode/
 *.sublime-project
 *.sublime-workspace
 
@@ -38,3 +37,7 @@ Thumbs.db
 .cache/
 .tmp/
 *.tmp
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
