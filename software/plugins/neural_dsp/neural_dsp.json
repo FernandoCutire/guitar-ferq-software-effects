@@ -1,0 +1,72 @@
+{
+  "plugins": [
+    {
+      "id": "archetype-plini",
+      "name": "Archetype: Plini",
+      "description": "Suite de plugins inspirada en el sonido del guitarrista Plini.",
+      "features": [
+        "2 amplificadores virtuales",
+        "9 pedales de efectos",
+        "Sección de cabina y micrófono",
+        "Post-efectos de estudio"
+      ],
+      "version": "1.1.0",
+      "company": "Neural DSP",
+      "website": "https://neuraldsp.com/plugins/archetype-plini",
+      "price": "139.00 USD",
+      "platform": "Windows, macOS",
+      "imageUrl": "/assets/images/plini.jpg"
+    },
+    {
+      "id": "archetype-nolly",
+      "name": "Archetype: Nolly",
+      "description": "Suite de plugins inspirada en Adam \"Nolly\" Getgood.",
+      "features": [
+        "4 amplificadores virtuales",
+        "Pedales de distorsión, compresión y modulación",
+        "Cabinas y micrófonos personalizados",
+        "Efectos de reverb y delay"
+      ],
+      "version": "1.0.0",
+      "company": "Neural DSP",
+      "website": "https://neuraldsp.com/plugins/archetype-nolly",
+      "price": "139.00 USD",
+      "platform": "Windows, macOS",
+      "imageUrl": "/assets/images/nolly.jpg"
+    },
+    {
+      "id": "archetype-tim-henson",
+      "name": "Archetype: Tim Henson",
+      "description": "Suite de plugins inspirada en el guitarrista de Polyphia.",
+      "features": [
+        "3 amplificadores virtuales",
+        "9 pedales de efectos incluyendo Auto-Wah y Octaver",
+        "Sección de efectos modernos y experimentales",
+        "Presets para sonidos característicos de Tim Henson"
+      ],
+      "version": "1.0.0",
+      "company": "Neural DSP",
+      "website": "https://neuraldsp.com/plugins/archetype-tim-henson",
+      "price": "139.00 USD",
+      "platform": "Windows, macOS",
+      "imageUrl": "/assets/images/tim-henson.jpg"
+    },
+    {
+      "id": "archetype-morgan",
+      "name": "Archetype: Morgan",
+      "description": "Suite de plugins con sonidos versátiles para múltiples estilos.",
+      "features": [
+        "3 amplificadores virtuales basados en el sonido de Morgan Amps",
+        "9 pedales de efectos clásicos y modernos",
+        "Presets versatiles para blues, rock y metal",
+        "Controles avanzados de gabinete y microfonía"
+      ],
+      "version": "1.0.0",
+      "company": "Neural DSP",
+      "website": "https://neuraldsp.com/plugins/archetype-morgan",
+      "price": "139.00 USD",
+      "platform": "Windows, macOS",
+      "imageUrl": "/assets/images/morgan.jpg"
+    }
+  ]
+}

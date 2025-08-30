@@ -1,0 +1,27 @@
+{
+  "name": "guitar-ferq-software-effects",
+  "version": "1.0.0",
+  "description": "Información sobre presets de pedalera, equipamiento y software para guitarra",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": [
+    "guitar",
+    "effects",
+    "presets",
+    "zoom",
+    "g3xn"
+  ],
+  "author": "FERQ",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/guitar-ferq-software-effects.git"
+  },
+  "homepage": "https://username.github.io/guitar-ferq-software-effects"
+}

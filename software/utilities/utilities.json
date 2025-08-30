@@ -1,0 +1,22 @@
+{
+  "utilities": [
+    {
+      "id": "moises",
+      "name": "Moises",
+      "description": "Software para separación de pistas de audio utilizando IA.",
+      "features": [
+        "Separación de voz, batería, bajo, y otros instrumentos",
+        "Eliminación de ruido de fondo",
+        "Ajuste de tempo sin afectar el tono",
+        "Extracción de partituras y acordes",
+        "Disponible como aplicación móvil y web"
+      ],
+      "version": "2.5.0",
+      "company": "Moises Technologies, Inc.",
+      "website": "https://moises.ai/",
+      "price": "Freemium (versión básica gratuita, premium desde 7.99 USD/mes)",
+      "platform": "Web, iOS, Android",
+      "imageUrl": "/assets/images/moises.jpg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "daws": [
+    {
+      "id": "logic-pro",
+      "name": "Logic Pro",
+      "description": "DAW principal para macOS con amplias capacidades de producción musical.",
+      "features": [
+        "Interfaz intuitiva y potente",
+        "Amplia biblioteca de sonidos e instrumentos virtuales",
+        "Excelente para grabación, mezcla y masterización",
+        "Integración nativa con hardware de Apple"
+      ],
+      "version": "10.7",
+      "company": "Apple",
+      "website": "https://www.apple.com/logic-pro/",
+      "price": "199.99 USD",
+      "platform": "macOS",
+      "imageUrl": "/assets/images/logic-pro.jpg"
+    },
+    {
+      "id": "reaper",
+      "name": "Reaper",
+      "description": "DAW alternativo con gran flexibilidad y personalización.",
+      "features": [
+        "Ligero y de alto rendimiento",
+        "Altamente personalizable",
+        "Amplio soporte para plugins",
+        "Excelente relación calidad-precio"
+      ],
+      "version": "6.68",
+      "company": "Cockos",
+      "website": "https://www.reaper.fm/",
+      "price": "60.00 USD (licencia personal)",
+      "platform": "Windows, macOS, Linux",
+      "imageUrl": "/assets/images/reaper.jpg"
+    }
+  ]
+}

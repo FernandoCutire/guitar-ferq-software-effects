@@ -1,0 +1,133 @@
+[
+  {
+    "patchNumber": "004",
+    "patchName": "EX_Reggae",
+    "description": "A smooth and groovy preset for reggae rhythm guitar, featuring a compressor for even tone, chorus for a lush sound, delay for warmth, spring reverb for bounce, and wah for a funky edge.",
+    "effects": [
+      { "family": "Dynamics", "type": "Compressor", "name": "Comp", "settings": { "Sense": 6, "Attack": "SLOW", "Tone": 6, "VOL": 80 } },
+      { "family": "Delay", "type": "Delay", "name": "Delay", "settings": { "Time": 316, "F.B": 30, "Mix": 60, "Tail": "OFF" } },
+      { "family": "Reverb", "type": "Spring", "name": "Spring", "settings": { "PreD": 1, "Decay": 18, "Mix": 23, "Tail": "OFF" } },
+      { "family": "Filter", "type": "Auto Wah", "name": "AutoWah", "settings": { "Mode": "UP", "Sense": 8, "RESO": 6, "VOL": 72 } },
+      { "family": "Modulation", "type": "Chorus", "name": "Chorus", "settings": { "Depth": 40, "Rate": 30, "Tone": 7, "Mix": 40 } }
+    ]
+  },
+  {
+    "patchNumber": "005",
+    "patchName": "EX_Rk_Crun",
+    "description": "Un tono crujiente para riffs de rock. Usando una distorsión suave para un sonido grueso y definido en ritmos y power chords.",
+    "effects": [
+      { "family": "Dynamics", "type": "Noise Gate", "name": "NoiseGate", "settings": { "DETECT": "GTRIN", "Depth": 95, "THRSH": 54, "Decay": 0 } },
+      { "family": "Dynamics", "type": "Compressor", "name": "GrayComp", "settings": { "SUSTN": 35, "Lo": 57, "Hi": 56, "VOL": 91 } },
+      { "family": "Drive", "type": "Distortion", "name": "DIST 1", "settings": { "Gain": 73, "Tone": 41, "VOL": 95 } },
+      { "family": "Reverb", "type": "Room", "name": "Room", "settings": { "PreD": 9, "Decay": 11, "Mix": 71, "Tail": "OFF" } },
+      { "family": "Amp", "type": "Amp Sim", "name": "MS", "settings": { "Input": "LO", "Bass": 60, "MID": 62, "Treble": 39 } },
+      { "family": "Amp", "type": "Booster", "name": "800", "settings": { "PRSNC": 30, "Gain": 72, "VOL": 64, "SOLO": 3 } },
+      { "family": "Cabinet", "type": "Cabinet Sim", "name": "MS4x12", "settings": { "MIC": "OFF", "D57:D421": true, "Hi": 50, "Lo": 44 } }
+    ]
+  },
+  {
+    "patchNumber": "006",
+    "patchName": "EX_Wah",
+    "description": "Tono con efecto wah clásico que se controla mediante el pedal de expresión. Perfecto para canciones funk, rock o blues donde el wah es esencial.",
+    "effects": [
+      { "family": "Dynamics", "type": "Compressor", "name": "BlackOpt", "settings": { "Comp": 66, "Lo": 51, "Hi": 50, "VOL": 62 } },
+      { "family": "Drive", "type": "Booster", "name": "RC Boost", "settings": { "Gain": 58, "Bass": 48, "Treble": 52, "VOL": 57 } },
+      { "family": "Amp", "type": "Amp Sim", "name": "FD", "settings": { "Bass": 48, "MID": 50, "Treble": 45, "BRGHT": "ON" } },
+      { "family": "Amp", "type": "Amp Sim", "name": "TWNR", "settings": { "Gain": 40, "VOL": 80, "DEPTH": 50, "SPEED": 50 } },
+      { "family": "Pedal", "type": "Wah", "name": "BlackWah", "settings": { "FREQ": 52, "Range": 51, "Dry": 1, "VOL": 100 } }
+    ]
+  },
+  {
+    "patchNumber": "007",
+    "patchName": "EX_Clean",
+    "description": "Un tono limpio con chorus para canciones de balada lead, perfecto para partes arpegiadas o rítmicas suaves.",
+    "effects": [
+      { "family": "Dynamics", "type": "Compressor", "name": "Comp", "settings": { "Sense": 6, "Attack": "SLOW", "Tone": 6, "VOL": 80 } },
+      { "family": "Modulation", "type": "Chorus", "name": "Chorus", "settings": { "Depth": 40, "Rate": 25, "Tone": 7, "Mix": 50 } },
+      { "family": "Drive", "type": "Booster", "name": "RC Boost", "settings": { "Gain": 58, "Bass": 48, "Treble": 52, "VOL": 48 } },
+      { "family": "Reverb", "type": "HD Reverb", "name": "HD Hall", "settings": { "PreD": 60, "Decay": 39, "Mix": 56, "Tail": "OFF" } },
+      { "family": "Delay", "type": "Echo", "name": "TapeEcho", "settings": { "Time": 560, "F.B": 64, "Mix": 56, "Tail": "OFF" } }
+    ]
+  },
+  {
+    "patchNumber": "008",
+    "patchName": "EX_Me_L",
+    "description": "A soaring lead tone for metal guitarists, featuring a noise gate, extreme distortion for searing solos, delay and reverb for depth, and EQ to cut through the mix.",
+    "effects": [
+      { "family": "Dynamics", "type": "Noise Gate", "name": "ZNR", "settings": { "DETECT": "GTRIN", "Depth": 64, "THRSH": 65, "Decay": 0 } },
+      { "family": "Reverb", "type": "Hall", "name": "Hall", "settings": { "PreD": 49, "Decay": 10, "Mix": 31, "Tail": "OFF" } },
+      { "family": "Drive", "type": "Distortion", "name": "MetalWRLD", "settings": { "Gain": 85, "Bass": 64, "Treble": 52, "VOL": 55 } },
+      { "family": "Amp", "type": "Amp Sim", "name": "MS", "settings": { "Bass": 50, "MID": 45, "Treble": 40 } },
+      { "family": "Amp", "type": "Booster", "name": "800", "settings": { "PRSNC": 30, "Gain": 70, "VOL": 54, "SOLO": 3 } },
+      { "family": "Cabinet", "type": "Cab Sim", "name": "MS4x12", "settings": { "MIC": "OFF", "D57:D421": true, "Hi": 50, "Lo": 50 } },
+      { "family": "Pedal", "type": "Expression", "name": "PDL Vol", "settings": { "VOL": 100, "Min": 0, "Max": 100, "Curve": "A" } }
+    ]
+  },
+  {
+    "patchNumber": "009",
+    "patchName": "MetalRytm",
+    "description": "A powerful preset for metal rhythm guitar, featuring a noise gate to eliminate hum, heavy distortion for aggressive riffs, EQ to shape the tone, and amp simulation for a high-gain sound.",
+    "effects": [
+      { "family": "Dynamics", "type": "Noise Gate", "name": "ZNR", "settings": { "DETECT": "GTRIN", "Depth": 60, "THRSH": 40, "Decay": 0 } },
+      { "family": "Drive", "type": "Distortion", "name": "MetalWRLD", "settings": { "Gain": 86, "Bass": 49, "Treble": 52, "VOL": 57 } },
+      { "family": "Filter", "type": "EQ", "name": "Gt GEQ", "settings": { "160Hz": 4.0, "400Hz": 2.0, "3.2kHz": 2.5 } },
+      { "family": "EQ", "type": "Graphic EQ", "name": "GEQ", "settings": { "6.4kHz": 2.5, "12kHz": -2.0, "VOL": 7.1, "LATCH": true } },
+      { "family": "Amp", "type": "Amp Sim", "name": "Recti", "settings": { "VNTG": true, "Bass": 60, "MID": 50, "Treble": 40 } },
+      { "family": "Amp", "type": "Booster", "name": "ORG", "settings": { "PRSNC": 50, "Gain": 80, "VOL": 60, "SOLO": 2 } },
+      { "family": "Delay", "type": "Delay", "name": "Delay", "settings": { "Time": 318, "F.B": 30, "Mix": 60, "Tail": "OFF" } }
+    ]
+  },
+  {
+    "patchNumber": "010",
+    "patchName": "MetalLead",
+    "description": "A soaring lead tone for metal guitarists, featuring a noise gate, extreme distortion for searing solos, delay and reverb for depth, and EQ to cut through the mix.",
+    "effects": [
+      { "family": "Dynamics", "type": "Noise Gate", "name": "ZNR", "settings": { "DETECT": "GTRIN", "Depth": 60, "THRSH": 30, "Decay": 0 } },
+      { "family": "Drive", "type": "Distortion", "name": "MetalWRLD", "settings": { "Gain": 75, "Bass": 50, "Treble": 57, "VOL": 66 } },
+      { "family": "Delay", "type": "Delay", "name": "Delay", "settings": { "Time": 374, "F.B": 35, "Mix": 32, "Tail": "OFF" } },
+      { "family": "Reverb", "type": "Ambience", "name": "Ambience", "settings": { "PreD": 38, "Decay": 66, "Mix": 69, "Tail": "OFF" } },
+      { "family": "Filter", "type": "EQ", "name": "ParaEQ", "settings": { "FREQ": 125, "Gain": 0.6, "VOL": 80 } },
+      { "family": "Pedal", "type": "Expression", "name": "PDL Vol", "settings": { "VOL": 100, "Min": 0, "Max": 100, "Curve": "A" } }
+    ]
+  },
+  {
+    "patchNumber": "013",
+    "patchName": "AcousSim",
+    "description": "Este preset transforma el sonido de una guitarra eléctrica en una acústica, ideal para emular la resonancia y claridad de las cuerdas acústicas.",
+    "effects": [
+      { "family": "Dynamics", "type": "Noise Gate", "name": "NoiseGate", "settings": { "DETECT": "EFXIN", "Depth": 100, "THRSH": 54, "Decay": 0 } },
+      { "family": "Drive", "type": "Acoustic Simulator", "name": "Aco.Sim", "settings": { "Top": 64, "Body": 75, "Tone": 53, "VOL": 100 } },
+      { "family": "Reverb", "type": "Room", "name": "Room", "settings": { "PreD": 5, "Decay": 10, "Mix": 60, "Tail": "OFF" } },
+      { "family": "Amp", "type": "Amp Sim", "name": "FD", "settings": { "Bass": 56, "MID": 59, "Treble": 45, "BRIGHT": "OFF" } },
+      { "family": "Amp", "type": "Amp Sim", "name": "TWNR", "settings": { "Gain": 26, "VOL": 86, "DEPTH": 50, "SPEED": 57 } },
+      { "family": "Modulation", "type": "Chorus", "name": "Chorus", "settings": { "Depth": 40, "Rate": 25, "Tone": 7, "Mix": 50 } }
+    ]
+  },
+  {
+    "patchNumber": "014",
+    "patchName": "CleanChor",
+    "description": "Un tono limpio con chorus para canciones de balada o rock clásico, perfecto para partes arpegiadas o rítmicas suaves.",
+    "effects": [
+      { "family": "Dynamics", "type": "Compressor", "name": "Comp", "settings": { "Sense": 6, "ATTCK": "SLOW", "Tone": 7, "VOL": 80 } },
+      { "family": "Reverb", "type": "HD Reverb", "name": "HD Hall", "settings": { "PreD": 60, "Decay": 35, "Mix": 35, "Tail": "OFF" } },
+      { "family": "Amp", "type": "Amp Sim", "name": "MS", "settings": { "Input": "LO", "Bass": 60, "MID": 65, "Treble": 55 } },
+      { "family": "Amp", "type": "Booster", "name": "800", "settings": { "PRSNC": 30, "Gain": 48, "VOL": 75, "SOLO": 2 } },
+      { "family": "Cabinet", "type": "Cab Sim", "name": "MS4x12", "settings": { "MIC": "OFF", "D57:D421": true, "Hi": 39, "Lo": 55 } },
+      { "family": "Modulation", "type": "Chorus", "name": "Chorus", "settings": { "Depth": 50, "Rate": 25, "Tone": 7, "Mix": 40 } },
+      { "family": "Drive", "type": "Booster", "name": "RC Boost", "settings": { "Gain": 58, "Bass": 48, "Treble": 52, "VOL": 48 } }
+    ]
+  },
+  {
+    "patchNumber": "015",
+    "patchName": "IndieFuzz",
+    "description": "Sonido fuzz cálido y comprimido, ideal para riffs indie pop y texturas modernas. Tiene cuerpo definido y un reverb amplio estilo ambiente vintage.",
+    "effects": [
+      { "family": "Dynamics", "type": "Noise Gate", "name": "ZNR", "settings": { "DETECT": "EFXIN", "Depth": 100, "THRSH": 30, "Decay": 0 } },
+      { "family": "Drive", "type": "Fuzz", "name": "OctFuzz", "settings": { "Boost": 65, "Color": 2, "Tone": 50, "VOL": 68 } },
+      { "family": "Amp", "type": "Amp Sim", "name": "UK", "settings": { "Bass": 55, "Treble": 60, "Cut": 30, "Gain": 40 } },
+      { "family": "Amp", "type": "Amp Sim", "name": "30A", "settings": { "VOL": 84, "DEPTH": 50, "Speed": 50, "SOLO": 3 } },
+      { "family": "Reverb", "type": "Plate", "name": "Plate", "settings": { "PreD": 7, "Decay": 26, "Mix": 25, "Tail": "OFF" } },
+      { "family": "Modulation", "type": "Stereo Chorus", "name": "StereoCho", "settings": { "Depth": 39, "Rate": 26, "Tone": 7, "Mix": 47 } }
+    ]
+  }
+]
